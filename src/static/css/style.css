@@ -1,0 +1,23 @@
+
+
+.form-size {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 480px;
+    background-color: #E9E9E9;
+    border: 1px solid #D5D5D5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.alert-deactivated {
+    font-size: 1em;
+    color: red;
+}
+
+.alert-active {
+    font-size: 1em;
+    color: green;
+}
+
