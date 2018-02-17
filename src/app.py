@@ -6,7 +6,7 @@ from src.common.database import Database
 
 app = Flask(__name__)
 app.config.from_object('src.config')
-app.secret_key = 'myvaluablesecretkey'
+app.secret_key = app.config['APP_SECRET_KEY']
 
 
 @app.before_first_request
